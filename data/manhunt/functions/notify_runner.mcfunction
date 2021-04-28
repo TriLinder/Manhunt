@@ -1,0 +1,2 @@
+execute if score Include_Username manhunt_settings matches 1 run tellraw @a[tag=hunted,limit=1,sort=nearest] ["",{"text":"Hunter ","color":"aqua"},{"selector":"@s","bold":true,"color":"green"},{"text":" requested your location!","color":"aqua"}]
+execute unless score Include_Username manhunt_settings matches 1 run tellraw @a[tag=hunted,limit=1,sort=nearest] {"text":"Hunter requested your location!","color":"aqua"}

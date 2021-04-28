@@ -1,0 +1,1 @@
+give @s[tag=hunter] minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Give Compass\",\"bold\":true,\"color\":\"red\"}"}} 1
