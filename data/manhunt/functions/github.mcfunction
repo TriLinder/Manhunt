@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Thanks for using my datapacks!\n\nMy ","color":"aqua"},{"text":"GitHub","bold":true,"color":"green","clickEvent":{"action":"open_url","value":"https://github.com/TriLinder"}},{"text":" is ","color":"aqua"},{"text":"https://github.com/TriLinder","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/TriLinder"}}]
