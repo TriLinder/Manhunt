@@ -15,11 +15,15 @@
 
 ​	Highly configurable
 
+​	Multiple runners / hunters!
+
 ​	Impostor game mode!
 
 ​	Smart game request system (can be easily automated!)
 
 ​	The winner team gets a trophy!
+
+​	A compass for the hunters, pointing to the nearest runner. (Drop to refresh)
 
 
 
