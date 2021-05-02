@@ -15,6 +15,10 @@ scoreboard players set tbm_tps activeDatapacks 0
 scoreboard players set tbm_tps_ver activeDatapacks 0
 function tps:check_active
 
+scoreboard players set tbm_hotbarswap activeDatapacks 0
+scoreboard players set tbm_hotbarswap_ver activeDatapacks 0
+function hotbarswap:check_active
+
 scoreboard players set tbm_lev activeDatapacks 0
 scoreboard players set tbm_lev_ver activeDatapacks 0
 function lev:check_active
