@@ -1,4 +1,8 @@
 scoreboard objectives add activeDatapacks dummy
+scoreboard players set tbm_craftend activeDatapacks 0
+scoreboard players set tbm_craftend_ver activeDatapacks 0
+function craftend:check_active
+
 scoreboard players set tbm_ds activeDatapacks 0
 scoreboard players set tbm_ds_ver activeDatapacks 0
 function ds:check_active
@@ -31,6 +35,10 @@ scoreboard players set tbm_tnt activeDatapacks 0
 scoreboard players set tbm_tnt_ver activeDatapacks 0
 function tnt:check_active
 
+scoreboard players set tbm_login activeDatapacks 0
+scoreboard players set tbm_login_ver activeDatapacks 0
+function login:check_active
+
 scoreboard players set tbm_manhunt activeDatapacks 0
 scoreboard players set tbm_manhunt_ver activeDatapacks 0
 function manhunt:check_active
@@ -46,4 +54,8 @@ function freeze:check_active
 scoreboard players set tbm_spec activeDatapacks 0
 scoreboard players set tbm_spec_ver activeDatapacks 0
 function spec:check_active
+
+scoreboard players set tbm_youmonster activeDatapacks 0
+scoreboard players set tbm_youmonster_ver activeDatapacks 0
+function youmonster:check_active
 
